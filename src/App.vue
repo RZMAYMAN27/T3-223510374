@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <h1>HI, WELCOME</h1>
+    <h1>SELAMAT DATANG</h1>
     <input type="text" v-model="newItem" placeholder="Telusuri To do List Saya" @keyup.enter="addItem">
     <ul>
       <li v-for="(item, index) in items" :key="index">
@@ -71,10 +71,10 @@ export default {
   font-family: 'Gill Sans', 'Gill Sans MT','Trebuchet MS';
   max-width: 400px;
   margin: 0 auto;
-  background: linear-gradient(135deg, #f22693c9 0%, #e71cc2e5 100%);
+  background: linear-gradient(135deg, #26f248c9 0%, #1ce4e7e5 100%);
   padding: 50px;
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(245, 22, 208, 0.811);
+  box-shadow: 0px 0px 10px 0px rgba(89, 22, 245, 0.811);
 }
 input[type="text"] {
   width: 100%;

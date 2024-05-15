@@ -47,7 +47,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #e140cf;
+  border-color: #408be1;
 }
 button:focus,
 button:focus-visible {
@@ -64,7 +64,7 @@ button:focus-visible {
   height: 500px; /* Mengatur tinggi div */
   max-width: 90%; /* Membuat div tidak melebihi 90% lebar viewport */
   margin: 0 auto;
-  background: linear-gradient(135deg, #ea40e1 0%, #d433c1 100%);
+  background: linear-gradient(135deg, #40c8ea 0%, #33d4b4 100%);
   padding: 50px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
